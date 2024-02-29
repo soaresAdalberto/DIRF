@@ -63,7 +63,7 @@ public string FormatCNPJ(string CNPJ): Recebe uma string CNPJ sem formatação e
 
 public string FormatCPF(string CPF): Funciona de forma semelhante a FormatCNPJ, mas recebe uma string CPF sem formatação e a retorna formatada de acordo com o padrão brasileiro (XXX.XXX.XXX-XX).
 
--Realiza a mesma conversão e formatação como em FormatCNPJ. (**Mesma recomendação de validação com expressão regular se aplicável.)
+-Realiza a mesma conversão e formatação como em FormatCNPJ.
 
 public string SemFormatacao(string Codigo): Remove todos os caracteres de formatação (pontos, hífens e barras) de uma dada string (presumivelmente representando um CNPJ ou CPF).
 
