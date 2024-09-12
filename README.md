@@ -50,8 +50,6 @@ Main: O método principal do programa. Ele recebe os argumentos de linha de coma
 
 -ExcluirArquivosComFinal_2: Este método recebe o caminho de uma pasta como entrada. Ele verifica se a pasta existe e, em caso afirmativo, itera sobre todos os arquivos na pasta. Se o nome do arquivo terminar com "_2.pdf", ele exclui o arquivo.
 
-____________________________
-
 2. FormataCnpjCpf: Esta classe fornece métodos para formatar, remover formatação e potencialmente validar números de Cadastro Nacional de Pessoas Jurídicas (CNPJ) e Cadastro de Pessoas Físicas (CPF) no Brasil.
 
 -Métodos:
